@@ -1,15 +1,9 @@
 #!/usr/bin/python3
-"""
-
-This is a module that contain a clas that avoids
-dynamically created attributes
-
-"""
+'''A module containing a class with restrictions.
+'''
 
 
 class LockedClass:
+    '''Represents a class with restricted attribute modification.
+    '''
     __slots__ = ['first_name']
-
-    def __init__(self):
-        """ Init method """
-        pass
